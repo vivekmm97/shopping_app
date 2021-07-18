@@ -1,0 +1,22 @@
+<h1 class="title">Users Home Page</h1>
+
+<div class="box">
+<div class="block1">
+    <h1 class="reg">Registration</h1>
+    <div class="links">
+
+    <%= link_to "Create Your Account", users_new_path %>
+
+    </div>
+</div>
+<div class="block2">
+    <h1 class="log">Login</h1>
+</div>
+<h1>
+
+</h1>
+</div>
+
+<% @users.each do |user|%>
+<%= user.name%>
+<%end%>

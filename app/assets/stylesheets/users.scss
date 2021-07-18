@@ -1,0 +1,51 @@
+.title{
+    color: red;
+    background-color: aqua;
+    text-align: center;
+}
+
+.box{
+    display: flex;
+    // flex-wrap: wrap;
+    background-color: chartreuse;
+    
+}
+
+.box > div{
+    // background-color: crimson;
+    
+    padding: 5px;
+    margin: auto;
+    border-radius: 10px;
+   
+}
+.block1 {
+    height: auto;
+    width: auto;
+    background-color: black;
+   
+}
+
+.block2{
+    height: auto;
+    width: auto;
+    background-color: blue;
+    //padding: 5px;
+    // left: 50%;
+}
+
+.reg{
+    color: white;
+}
+
+.log{
+    color: yellow;
+}
+
+.links{
+    height:auto;
+    width:auto;
+    color: aquamarine;
+    background-color: dimgray;
+    // margin-left: 50%;
+}
