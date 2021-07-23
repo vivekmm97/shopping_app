@@ -12,11 +12,19 @@
 <div class="block2">
     <h1 class="log">Login</h1>
 </div>
-<h1>
 
-</h1>
 </div>
-
+<table>
+<tr>
+<td class="header">Name</td>
+<td class="header">Email</td>
+<td class="header">Place</td>
+</tr>
 <% @users.each do |user|%>
-<%= user.name%>
+<tr>
+<td><%= user.name%></td>
+<td><%= user.email%></td>
+<td><%= user.place%></td>
+</tr>
+
 <%end%>
