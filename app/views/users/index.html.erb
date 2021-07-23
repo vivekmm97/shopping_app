@@ -1,7 +1,7 @@
 <h1 class="title">Users Home Page</h1>
 
 <div class="box">
-<div class="block1">
+<div>
     <h1 class="reg">Registration</h1>
     <div class="links">
 
@@ -9,8 +9,10 @@
 
     </div>
 </div>
-<div class="block2">
+<div>
     <h1 class="log">Login</h1>
+    <%= link_to "Login To Your Account", new_session_path %>
+    <%# <%= button_to 'LOGIN', new_session_path, method: :get %> 
 </div>
 
 </div>
